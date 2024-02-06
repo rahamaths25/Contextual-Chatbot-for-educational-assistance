@@ -1,0 +1,546 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "types of inheritance",
+       "patterns": [
+        "What are the types of inheritance?",
+        "types of inheritance?"
+       ],
+       "responses": [
+        "The different 6 types of Inheritance in java are: Single inheritance, Multi-level inheritance, Multiple inheritance, Multipath inheritance, Hierarchical Inheritance, Hybrid Inheritance. "
+       ]
+    },
+{
+      "tag": "method",
+       "patterns": [
+        "What is method?",
+        "define method?"
+       ],
+       "responses": [
+        "A method is a function that is associated with an instance of a class or a static class. A 'method' is a particular type of member, described by MSDN as such: Methods define the actions that a class can perform. "
+       ]
+    },
+
+{
+      "tag": "instance",
+       "patterns": [
+        "What is instance?",
+        "define instance?"
+       ],
+       "responses": [
+        "In object-oriented programming (OOP), an instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance. The creation of a realized instance is called instantiation. "
+       ]
+    },
+
+{
+      "tag": "example for interface",
+       "patterns": [
+        "What is interface?",
+        "define interface?",
+        "interface?"
+       ],
+       "responses": [
+        "An interface is a description of the actions that an object can do... for example when you flip a light switch, the light goes on, you don't care how, just that it does. In Object Oriented Programming, an Interface is a description of all functions that an object must have in order to be an 'X'. "
+       ]
+    },
+
+
+
+{
+      "tag": "this keyword",
+       "patterns": [
+        "What is the purpose of the 'this' keyword in Java?",
+        "this keyword?"
+       ],
+       "responses": [
+        "The this keyword refers to the current object in a method or constructor. The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name. "
+       ]
+    },
+
+{
+      "tag": "main features",
+       "patterns": [
+        "What are the main features of OOPs?",
+        "main features of OOPs?"
+       ],
+       "responses": [
+        "Object-oriented programming, or OOPs, is a programming model which breaks down a problem in terms of classes and objects. OOPs allows the creation of several instances of a class called objects, hence facilitating code reuse. Some object-oriented programming languages are C++, Java, Javascript, Python, etc"
+       ]
+    },
+
+{
+      "tag": "disadvantages of Object-oriented programming?",
+       "patterns": [
+        "What are the advantages of Object-oriented programming?",
+        "advantages of Object-oriented programming?"
+       ],
+       "responses": [
+        "Like all programming paradigms, however, OOP comes with its set of drawbacks in a Java development environment as well. These include a steeper learning curve, potential performance overhead, memory consumption, lower execution efficiency, and complex designs. "
+       ]
+    },
+{
+      "tag": "advantages of Object-oriented programming?",
+       "patterns": [
+        "What are the advantages of Object-oriented programming?",
+        "advantages of Object-oriented programming?"
+       ],
+       "responses": [
+        "Benefits of Object-Oriented Programming are: Users can build programs from the standard modules that communicate with each other. This prevents writing the code again from scratch, which ultimately saves the development time of the code and therefore is higher productivity of the program."
+       ]
+    },
+
+{
+      "tag": "Types of constructor",
+       "patterns": [
+        "What are the Types of constructor?",
+        "Types of constructor?"
+       ],
+       "responses": [
+        "Types of constructors depend upon languages: Private Constructor, Default Constructor, Copy Constructor, Static Constructor, Parameterized Constructor "
+       ]
+    },
+
+{
+      "tag": "access modifiers",
+       "patterns": [
+        "What are the access modifiers?"
+       ],
+       "responses": [
+        "Access modifiers or access specifiers are the keywords in object-oriented languages.  It helps to set the accessibility of classes, methods, and other members. "
+       ]
+    },
+
+{
+      "tag": "hybrid inheritance",
+       "patterns": [
+        "What is hybrid inheritance?",
+        "define hybrid inheritance?"
+       ],
+       "responses": [
+        "The type of inheritance formed by the combination of different types of inheritances like single, multiple inheritances, etc. is classified as hybrid inheritance. "
+       ]
+    },
+
+{
+      "tag": "hierarchical inheritance",
+       "patterns": [
+        "What is hierarchical inheritance?",
+        "define hierarchical inheritance?"
+       ],
+       "responses": [
+        "In the case of a hierarchical inheritance, multiple subclasses inherit from a parent class. Hierarchical inheritance is a type of inheritance in which multiple classes are descended from a single parent or base class."
+       ]
+    },
+
+{
+      "tag": "Single inheritance",
+       "patterns": [
+        "What is Single inheritance?",
+        "define Single inheritance?"
+       ],
+       "responses": [
+        "Single inheritance is one in which the derived class inherits the single base class either public, private, or protected access specifier. In single inheritance, the derived class uses the features or members of the single base class."
+       ]
+    },
+{
+      "tag": "Multilevel inheritance",
+       "patterns": [
+        "What is Multilevel inheritance?",
+        "define Multilevel inheritance?"
+       ],
+       "responses": [
+        "The multi-level inheritance includes the involvement of at least two or more than two classes. One class inherits the features from a parent class and the newly created sub-class becomes the base class for another new class."
+       ]
+    },
+{
+      "tag": "Multiple inheritance",
+       "patterns": [
+        "What is Multiple inheritance?",
+        "define Multiple inheritance?"
+       ],
+       "responses": [
+        "Multiple inheritance means that a subclass can inherit from two or more superclasses. C++ allows multiple inheritance, but Java allows only single inheritance, that is, a subclass can inherit only one superclass."
+       ]
+    },
+
+
+{
+      "tag": "superclass",
+       "patterns": [
+        "What is a superclass?",
+        "define superclass?"
+       ],
+       "responses": [
+        "A superclass is a class from which a subclass or child class is derived. Base class and parent class are other names for a superclass. "
+       ]
+    },
+
+{
+      "tag": "superclass example",
+       "patterns": [
+        "What is the example superclass?",
+        "give the example for superclass?"
+       ],
+       "responses": [
+        "if Student is a class derived from the Person class, then the Person class will be referred to as the superclass, A superclass or base class is also a class that works as a parent to some other class/ classes. For example, the Vehicle class is a superclass of class Bike."
+       ]
+    },
+
+{
+      "tag": "subclass",
+       "patterns": [
+        "What is a subclass?",
+        "define subclass?"
+       ],
+       "responses": [
+        "A class that derives from another class is referred to as a subclass. A subclass inherits the properties of its ancestors or parent classes. For example, the class Bike is a subclass or a derivative of the Vehicle class. "
+       ]
+    },
+
+{
+      "tag": "abstract class",
+       "patterns": [
+        "What is an abstract class?",
+        "define abstract class?"
+       ],
+       "responses": [
+        "An abstract class is also a class which is consists of abstract methods. These methods are basically declared but not defined and If these methods need to be used later in some subclass that time those methods have to be exclusively defined in the subclass. "
+       ]
+    },
+
+{
+      "tag": "data abstraction and encapsulation",
+       "patterns": [
+        "Differentiate between data abstraction and encapsulation.",
+        "data abstraction and encapsulation?"
+       ],
+       "responses": [
+        "Abstraction is the method of hiding the unwanted information. Whereas encapsulation is a method to hide the data in a single entity or unit along with a method to protect information from outside. We can implement abstraction using abstract class and interfaces. "
+       ]
+    },
+{
+      "tag": "abstract class and an interface",
+       "patterns": [
+        "Differentiate between abstract class and an interface.",
+        "abstract class and an interface?"
+       ],
+       "responses": [
+        "An interface can have only abstract methods, but an Abstract class can have abstract and non-abstract methods. The interface should be used if just the requirement specification is known and nothing about implementation. If the implementation is known, but partially, then an abstract class should be used. "
+       ]
+    },
+
+
+{
+      "tag": "class and a method",
+       "patterns": [
+        "Differentiate between class and a method.",
+        "class and a method?"
+       ],
+       "responses": [
+        "A class is a blueprint of objects, and it consists of the properties and behaviour of the objects. Methods are programming constructs that perform specific tasks/behaviour. "
+       ]
+    },
+{
+      "tag": "class and structure",
+       "patterns": [
+        "Differentiate between class and structure.",
+        "class and structure?"
+       ],
+       "responses": [
+        "Structures and classes differ in the following particulars: Structures are value types; classes are reference types. A variable of a structure type contains the structure's data, rather than containing a reference to the data as a class type does. Structures use stack allocation; classes use heap allocation."
+       ]
+    },
+
+{
+      "tag": "virtual functions",
+       "patterns": [
+        "What are virtual functions?",
+        "define virtual functions?"
+       ],
+       "responses": [
+        "Virtual functions are also part of the functions which are present in the parent class and they are overridden by the subclass. These functions help to achieve runtime polymorphism."
+       ]
+    },
+    
+{
+    "tag": "pure virtual functions",
+     "patterns": [
+      "What are pure virtual functions?",
+      "define pure virtual functions?"
+     ],
+     "responses": [
+      "A pure virtual function is only declared in the parent class. It is also referred to as an abstract function. Pure virtual functions do not contain any definition in the base class."
+     ]
+  },
+
+{
+      "tag": "exception handling",
+       "patterns": [
+        "What is exception handling?",
+        "define exception handling?"
+       ],
+       "responses": [
+        "Exception handling in Object-Oriented Programming is the most important concept. It is used to manage errors. An exception handler help to throw errors and then catch the error in order to solve them."
+       ]
+    },
+{
+      "tag": "copy constructor",
+       "patterns": [
+        "What is copy constructor?",
+        "define copy constructor?"
+       ],
+       "responses": [
+        "By copying the members of an existing object, the copy constructor initialises the members of a newly formed object. The argument for the copy constructor is a reference to an object of the same class. Programmers have the option of directly defining the copy constructor."
+       ]
+    },
+
+{
+      "tag": "default constructor",
+       "patterns": [
+        "What is default constructor?",
+        "define default constructor?"
+       ],
+       "responses": [
+        "A constructor without any arguments or with the default value for every argument is said to be the Default constructor. A constructor that has zero parameter list or in other sense, a constructor that accept no arguments is called a zero argument constructor or default constructor."
+       ]
+    },
+
+{
+      "tag": "access specifiers",
+       "patterns": [
+        "What are access specifiers?",
+        "define access specifiers?"
+       ],
+       "responses": [
+        " Access specifiers are the keywords in any programming language used to specify the Class’s, method’s, interface’s and variable’s behaviour concerning its accessibility. The access specifiers in C++ Programming are public, private, and protected."
+       ]
+    },
+
+{
+      "tag": "levels of data abstraction",
+       "patterns": [
+        "What are the levels of data abstraction?",
+        "levels of data abstraction?"
+       ],
+       "responses": [
+        " There are three levels of abstraction Physical Level- Defines how the data is actually stored employing various data structures. Logical level- Describes the relationship which exists among the stored data. View level- Provides a high-level view of a section of data."
+       ]
+    },
+
+
+{
+      "tag": "Example for Hierarchical inheritance",
+       "patterns": [
+        "What is an example of a Hierarchical inheritance?",
+        "What are real examples of Hierarchical inheritance?"
+       ],
+       "responses": [
+        "In hierarchical inheritance, all features that are common in child classes are included in the base class. For example, Physics, Chemistry, Biology are derived from Science class. Similarly, Dog, Cat, Horse are derived from Animal class."
+       ]
+    },
+
+{
+      "tag": "Example for Hybrid inheritance",
+       "patterns": [
+        "What is an example of a Hybrid inheritance?",
+        "What are real examples of Hybrid inheritance?"
+       ],
+       "responses": [
+        "If we talk about the Ferrari, that is a combination of the racing car and a normal car. So class Ferrari is derived from the class Car and Class Racing. Hence, the above example is a single and multiple inheritance. It is a perfect example of hybrid inheritance (single + multiple).-"
+       ]
+    },
+
+
+
+{
+      "tag": "Example for Single inheritance",
+       "patterns": [
+        "What is an example of a single inheritance?",
+        "What are real examples of single inheritance?"
+       ],
+       "responses": [
+        "Here are some examples of single inheritance in Java programming: Animal and Dog classes: In this example, the Animal class is the superclass, and the Dog class is the subclass. The Dog class inherits properties and methods from the Animal class, such as the eat() method."
+       ]
+    },
+{
+      "tag": "Example for Multi level inheritance",
+       "patterns": [
+        "What is an example of a multi level inheritance?",
+        "What are real examples of multi level inheritance?"
+       ],
+       "responses": [
+        "For example, if we take Grandfather as a base class then Father is the derived class that has features of Grandfather and then Child is the also derived class that is derived from the sub-class Father which inherits all the features of Father."
+       ]
+    },
+
+
+{
+      "tag": "Example for Multiple inheritance",
+       "patterns": [
+        "What is an example of a multiple inheritance?",
+        "What are real examples of multiple inheritance?"
+       ],
+       "responses": [
+        "In C++ programming, a class can be derived from more than one parent. For example, A class Bat is derived from base classes Mammal and WingedAnimal . It makes sense because bat is a mammal as well as a winged animal."
+       ]
+    },
+
+    {
+        "tag": "different types of Polymorphism",
+         "patterns": [
+          "What are the different types of Polymorphism?",
+          "different types of Polymorphism?"
+         ],
+         "responses": [
+          "Polymorphism can be classified into two types based on the time when the call to the object or function is resolved. They are as follows: Compile Time Polymorphism Runtime Polymorphism"
+         ]
+      },
+      {
+        "tag": "limitations on Inheritance",
+         "patterns": [
+          "What are the limitations on Inheritance?",
+          "limitations on Inheritance?"
+         ],
+         "responses": [
+          "Main disadvantage of using inheritance is that the two classes (parent and child class) gets tightly coupled. it will affect to all the child classes which is inheriting/deriving the parent class, and hence, it cannot be independent of each other."
+         ]
+      },
+
+      {
+        "tag": "Structure",
+         "patterns": [
+          "What is meant by structure?",
+          "define structure?"
+         ],
+         "responses": [
+          "Structure is a collection of variables of different data types under a single name. It is similar to a class in that, both holds a collecion of data of different data types. "
+         ]
+      },
+      
+      {
+        "tag": "Example for Structure",
+         "patterns": [
+          "Example for structure?"
+         ],
+         "responses": [
+          "Structure is a collection of variables of different data types under a single name. For example: You want to store some information about a person: his/her name, citizenship number and salary."
+         ]
+      },
+      {
+        "tag": "multiple and multi-level inheritances? ",
+         "patterns": [
+          "Difference between multiple and multi-level inheritances ?",
+          "Distinguish between multiple and multi-level inheritances? "
+         ],
+         "responses": [
+          "In the case of the multiple inheritance, a class inherits more than one parent class. In contrast, multi-level inheritance means that class inherits from another class, which is a subclass of some other parent class."
+         ]
+      },
+      {
+        "tag": "static polymorphism? ",
+         "patterns": [
+          "What is meant by static polymorphism?",
+          "Define static polymorphism? "
+         ],
+         "responses": [
+          "The static polymorphism or static binding allows us to link a function with objects during compilation. It can be implemented by method overloading of operator overloading. "
+         ]
+      },
+
+      {
+        "tag": "dynamic polymorphism? ",
+         "patterns": [
+          "What is meant by static polymorphism?",
+          "Define static polymorphism? "
+         ],
+         "responses": [
+          "A dynamic polymorphism or dynamic binding allows for a call to an overridden method at the run time.  dynamic polymorphism happens among different classes as opposed to static polymorphism "
+         ]
+      },
+
+
+
+
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
